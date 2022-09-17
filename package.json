@@ -1,9 +1,9 @@
 {
   "name": "calendar",
   "version": "1.0.0",
-  "description": "",
   "main": "calendar.js",
   "scripts": {
+    "start": "node calendar.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +11,19 @@
   "dependencies": {
     "telegraf": "^4.9.1",
     "telegraf-calendar-telegram": "^2.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimPrudnikau/BntuWeeks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaksimPrudnikau/BntuWeeks/issues"
+  },
+  "homepage": "https://github.com/MaksimPrudnikau/BntuWeeks#readme",
+  "description": "",
+  "engines": {
+    "node": "17.0",
+    "npm": "8.1"
   }
 }
